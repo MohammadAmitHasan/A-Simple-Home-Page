@@ -15,10 +15,10 @@ const Navbar = () => {
                 {open ? <XIcon className='text-white'></XIcon> : <MenuIcon className='text-white'></MenuIcon>}
             </div>
             <ul className={`bg-zinc-800 py-1 md:flex justify-end text-center left-0 w-full absolute md:static duration-300 ease-in ${open ? 'top-14' : 'top-[-240px]'}`}>
-                <div className='menuItems'><Link to={'/'}>Home</Link></div>
-                <div className='menuItems'><Link to={'/'}>Mobiles</Link></div>
-                <div className='menuItems'><Link to={'/'}>Cart</Link></div>
-                <div className='menuItems'><Link to={'/'}>Log Out</Link></div>
+                <div className='menuItems'><Link to={'/'}>HOME</Link></div>
+                <div className='menuItems'><Link to={'/'}>MOBILES</Link></div>
+                <div className='menuItems'><Link to={'/'}>CART</Link></div>
+                <div className='menuItems'><Link to={'/'}>LOGOUT</Link></div>
             </ul>
         </nav>
 
