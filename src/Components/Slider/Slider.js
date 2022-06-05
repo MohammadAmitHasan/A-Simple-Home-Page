@@ -23,7 +23,7 @@ import { Pagination, EffectCoverflow } from "swiper";
 const Slider = () => {
     return (
         <div className='container mx-auto'>
-            <h1 className='text-center mb-8 text-3xl md:text-4xl font-semibold text-purple-900'>Get From Us</h1>
+            <h1 className='text-center mb-5 text-3xl md:text-4xl font-semibold text-purple-900'>Get From Us</h1>
             <div className='max-w-4xl mx-auto p-5'>
                 <Swiper
                     effect={"coverflow"}
