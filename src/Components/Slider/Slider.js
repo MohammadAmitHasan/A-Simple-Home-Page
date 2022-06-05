@@ -14,7 +14,7 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
-import "./Feature.css";
+import "./slider.css";
 
 // import required modules
 import { Pagination, EffectCoverflow } from "swiper";
@@ -37,46 +37,44 @@ const Slider = () => {
                         modifier: 1,
                         slideShadows: true,
                     }}
-                    autoplay={{
-                        delay: 2500,
-                        disableOnInteraction: false,
-                    }}
-                    pagination={{
-                        clickable: true,
-                    }}
 
-                    modules={[EffectCoverflow, Pagination]}
+                    modules={[EffectCoverflow]}
                     className="mySwiper"
                 >
                     <SwiperSlide>
                         <img src={mobile} alt="feature1" />
-                        <p className='text-2xl font-semibold text-center text-purple-900'>
-                            Mobile Devices
-                        </p>
+                        <div className='bg-zinc-800 p-2 rounded-b-lg'>
+                            <h2 className='text-2xl font-semibold text-white'>Mobile Devices</h2>
+                        </div>
+
                     </SwiperSlide>
                     <SwiperSlide>
                         <img src={acc} alt="feature2" />
-                        <p className='text-2xl font-semibold text-center text-purple-900'>
-                            Mobile Accessories
-                        </p>
+                        <div className='bg-zinc-800 p-2 rounded-b-lg'>
+                            <h2 className='text-2xl font-semibold text-white'>Mobile Accessories</h2>
+                        </div>
+
                     </SwiperSlide>
                     <SwiperSlide>
                         <img src={smartDevice} alt="feature3" />
-                        <p className='text-2xl font-semibold text-center text-purple-900'>
-                            Smart Gadgets
-                        </p>
+                        <div className='bg-zinc-800 p-2 rounded-b-lg'>
+                            <h2 className='text-2xl font-semibold text-white'>Smart Gadgets</h2>
+                        </div>
+
                     </SwiperSlide>
                     <SwiperSlide>
                         <img src={parts} alt="feature4" />
-                        <p className='text-2xl font-semibold text-center text-purple-900'>
-                            Mobile Parts
-                        </p>
+                        <div className='bg-zinc-800 p-2 rounded-b-lg'>
+                            <h2 className='text-2xl font-semibold text-white'>Mobile Parts</h2>
+                        </div>
+
                     </SwiperSlide>
                     <SwiperSlide>
                         <img src={repair} alt="feature4" />
-                        <p className='text-2xl font-semibold text-center text-purple-900'>
-                            Mobile Services
-                        </p>
+                        <div className='bg-zinc-800 p-2 rounded-b-lg'>
+                            <h2 className='text-2xl font-semibold text-white'>Mobile Services</h2>
+                        </div>
+
                     </SwiperSlide>
                 </Swiper>
 
